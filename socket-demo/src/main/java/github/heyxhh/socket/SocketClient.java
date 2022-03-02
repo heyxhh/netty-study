@@ -1,4 +1,4 @@
-package github.heyxhh.netty.socket;
+package github.heyxhh.socket;
 
 import java.io.IOException;
 import java.io.InputStream;

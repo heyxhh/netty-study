@@ -12,8 +12,9 @@
 
 
   <modules>
-    <module>socket-example</module>
     <module>netty-helloworld</module>
+    <module>socket-demo</module>
+    <module>io-demo</module>
   </modules>
 
 
