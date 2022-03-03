@@ -42,7 +42,8 @@ public class SocketServer {
 
                         OutputStream outputStream = socket.getOutputStream();
                         outputStream.write("Hello Client,I get the message.".getBytes("UTF-8"));
-
+                        outputStream.flush();
+                        
                         inputStream.close();
                         outputStream.close();
                         socket.close();
